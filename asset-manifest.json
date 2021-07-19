@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Coffee-Roasters/static/css/main.3e31f43c.chunk.css",
+    "main.js": "/Coffee-Roasters/static/js/main.ab684e91.chunk.js",
+    "main.js.map": "/Coffee-Roasters/static/js/main.ab684e91.chunk.js.map",
+    "runtime-main.js": "/Coffee-Roasters/static/js/runtime-main.60c88498.js",
+    "runtime-main.js.map": "/Coffee-Roasters/static/js/runtime-main.60c88498.js.map",
+    "static/js/2.2ae76cb9.chunk.js": "/Coffee-Roasters/static/js/2.2ae76cb9.chunk.js",
+    "static/js/2.2ae76cb9.chunk.js.map": "/Coffee-Roasters/static/js/2.2ae76cb9.chunk.js.map",
+    "index.html": "/Coffee-Roasters/index.html",
+    "static/css/main.3e31f43c.chunk.css.map": "/Coffee-Roasters/static/css/main.3e31f43c.chunk.css.map",
+    "static/js/2.2ae76cb9.chunk.js.LICENSE.txt": "/Coffee-Roasters/static/js/2.2ae76cb9.chunk.js.LICENSE.txt",
+    "static/media/home.css": "/Coffee-Roasters/static/media/smcoffee.587fb68e.png",
+    "static/media/icon-coffee-bean.a39b0780.svg": "/Coffee-Roasters/static/media/icon-coffee-bean.a39b0780.svg",
+    "static/media/icon-gift.611b8a07.svg": "/Coffee-Roasters/static/media/icon-gift.611b8a07.svg",
+    "static/media/icon-truck.6a10e7c2.svg": "/Coffee-Roasters/static/media/icon-truck.6a10e7c2.svg",
+    "static/media/illustration-australia.090e2b81.svg": "/Coffee-Roasters/static/media/illustration-australia.090e2b81.svg",
+    "static/media/illustration-canada.30bd3439.svg": "/Coffee-Roasters/static/media/illustration-canada.30bd3439.svg",
+    "static/media/illustration-uk.ef38b5a9.svg": "/Coffee-Roasters/static/media/illustration-uk.ef38b5a9.svg",
+    "static/media/image-danche.42b87a74.png": "/Coffee-Roasters/static/media/image-danche.42b87a74.png",
+    "static/media/image-gran-espresso.fc5aa0dc.png": "/Coffee-Roasters/static/media/image-gran-espresso.fc5aa0dc.png",
+    "static/media/image-piccollo.304c8160.png": "/Coffee-Roasters/static/media/image-piccollo.304c8160.png",
+    "static/media/image-planalto.33bcba48.png": "/Coffee-Roasters/static/media/image-planalto.33bcba48.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60c88498.js",
+    "static/js/2.2ae76cb9.chunk.js",
+    "static/css/main.3e31f43c.chunk.css",
+    "static/js/main.ab684e91.chunk.js"
+  ]
+}
