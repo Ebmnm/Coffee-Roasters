@@ -200,7 +200,7 @@ border-radius: .5em;
         color:white;
         max-height:100%;
         
-        width:50%;
+        width:70%;
        margin: 5%;
     }
     
@@ -316,4 +316,10 @@ border-radius: .5em;
         font-size: 3em;
     }
     
+}
+
+@media (min-width: 1200px) {
+    .side-text{
+        width:50%;
+    }
 }
