@@ -1,0 +1,319 @@
+.container {
+    border: 2px black solid;
+    width:92vw;
+    margin: 0 auto;
+    border-radius:2em;
+    height:auto;
+    padding-bottom: 10%;
+    background-image:  url("/src/assets/smcoffee.png");
+    background-size: cover;
+   
+    /* url("/src/assets/coffee.png"); */
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.side-text{
+    color:white;
+    max-height:100%;
+    display:flex;
+    width:100%;
+    flex-direction: column;
+   margin: 5% auto;
+   align-items: center;
+   justify-content: center;
+}
+
+.side-text p {
+width:80%;
+font-size: 1.2em;
+line-height: 1.5em;
+text-align: center;
+}
+.side-text h1 {
+text-align: center;
+font-size: 3em;
+margin-bottom: 0;
+}
+
+.side-text button {
+
+white-space: nowrap;
+padding:.6em;
+background-color: rgb(14, 134, 132);
+color:white;
+font-weight: 900;
+font-size: 1.3em;
+display:flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+border-radius: .5em;
+}
+.side-text button:hover {
+    background-color: rgb(2, 202, 252);
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.collection{
+    text-align: center;
+    margin: 20% 0;
+}
+
+.collection h2 {
+    font-size:2em;
+}
+.collectionh1 {
+    font-size: 2.5em;
+    margin:auto;
+    text-align: center;
+    margin-top:10%;
+}
+.collection .img-wrap {
+    width:200px;
+    height:200px;
+    display:flex;
+    justify-content:center;
+    margin:auto;
+}
+
+.collection img {
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+.collection p {
+    font-size: 1.3em;
+    margin: 0 20%;
+}
+
+.why-section {
+    background-color: rgb(44, 52, 63);
+    color:white;
+    height:1200px;
+    width:92vw;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    border-radius:1em;
+}
+.why-section p {
+    margin: 0 10%;
+}
+.why-card {
+    display:flex;
+    gap:10px;
+    background-color:rgb(14, 134, 132) ;
+    flex-direction: column;
+    margin: 15% 5%;
+    padding:2em;
+    border-radius:1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.why-section h1 {
+    font-size: 3em;
+}
+
+
+@media (min-width:650px){
+    .collection{
+        text-align: center;
+        margin: 20% 0;
+    }
+   
+    .collection-wrap {
+        display:flex;
+        flex-direction: row;
+    }
+  
+    .collection .img-wrap {
+     
+        width:320px;
+        height:320px;
+    }
+    .collectionh1 {
+        font-size: 3em;
+    }
+    
+  
+    .collection p {
+        font-size: 1.4em;
+        margin: 0;
+    }
+    .collection .text {
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 3%;
+    }
+
+   
+    .why-section p {
+        margin: 0 10%;
+    }
+    .why-card {
+   
+        flex-direction: row;
+       
+    }
+    
+    .why-section h1 {
+        font-size: 3.3em;
+    }
+    
+}
+
+@media (min-width:900px){
+
+/* .collection-wrap {
+    display:flex;
+    flex-direction: column;
+}
+
+.collection{
+    display:flex;
+    flex-direction: row;
+} */
+}
+
+@media (min-width:1000px) {
+    .container {
+        border: 2px black solid;
+        width:85vw;
+        margin: 0 auto;
+        border-radius:2em;
+        height:60vh;
+        padding-bottom: 10%;
+        background-image:  url("/src/assets/coffee.png");
+        background-size: cover;
+       
+        /* url("/src/assets/coffee.png"); */
+    }    
+
+    .side-text{
+        color:white;
+        max-height:100%;
+        
+        width:50%;
+       margin: 5%;
+    }
+    
+    .side-text p {
+/*     width:80%;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: center; */
+    text-align: left;
+    margin-left:15%;
+    }
+    .side-text h1 {
+  /*   text-align: center;
+    font-size: 3em;
+    margin-bottom: 0; */
+    margin-bottom: 5%;
+    width:70%;
+    text-align: left;
+   font-size: 4em;
+    
+    
+    }
+    
+    .side-text button {
+    margin-top: 5%;
+   display:block;
+   margin-right: 15%;
+   /*  white-space: nowrap;
+    padding:.6em;
+    background-color: rgb(14, 134, 132);
+    color:white;
+    font-weight: 900;
+    font-size: 1.3em;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: .5em; */
+    }
+
+  
+    .collection .img-wrap {
+     
+        width:200px;
+        height:200px;
+    }
+    .collection p {
+        font-size: 1.4em;
+        margin: 5%;
+    }
+
+    .collection-wrap {
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .collection{
+        display:flex;
+        flex-direction: row;
+        margin-top:5%;
+    }
+
+    .why-section {
+        background-color: rgb(44, 52, 63);
+        color:white;
+        /* height:1200px; */
+        height:auto;
+        width:85vw;
+        margin: auto;
+        padding: 2%;
+        text-align: center;
+        border-radius:1em;
+        display: flex;
+        flex-direction: column;
+        min-height: 80vh;
+    }
+
+    .why-card-section{
+        display:flex;
+        flex-direction: row;
+        padding: 3em;
+    }
+    .why-section p {
+        margin: 0;
+        font-size: 1.3em;
+    }
+  
+    .whytopp{
+  margin:auto;
+  width:65%;
+  align-self: center;
+    }
+    .why-card {
+        display:flex;
+        gap:10px;
+        background-color:rgb(14, 134, 132) ;
+        flex-direction: column;
+        margin: 0 2%;
+        padding:1em;
+        border-radius:1em;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-width: 200px;
+        
+    }
+    .why-card p{
+        width:100%;
+        margin:0;
+    }
+    
+    .why-section h1 {
+        font-size: 3em;
+    }
+    
+}

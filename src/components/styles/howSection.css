@@ -1,0 +1,72 @@
+.how{
+  margin-top: 340px;
+  text-align: center;
+
+}
+
+
+ .how h1 {
+  font-size: 4em;
+margin:0;
+color: lightcoral;
+}
+
+.how-card  p {
+  margin: 0 10%;
+  margin-bottom: 10%;
+}
+
+
+
+.how  button {
+  white-space: nowrap;
+padding:.6em;
+background-color: rgb(14, 134, 132);
+color:white;
+font-weight: 900;
+font-size: 1.3em;
+display:flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+border-radius: .5em;
+margin:auto;
+}
+.how button:hover{
+  transform: scale(1.1);
+  transition:.3s
+}
+.how h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+.how-card  h2{
+  font-size: 1.8em;
+  
+}
+.how .how-title{
+  font-size: 2.5em;
+}
+@media (min-width:360px) {
+  .how{
+    margin-top: 200px;
+  }
+}
+
+@media(min-width:800px) {
+  .how-cards{
+    display:flex;
+    max-width: 92vw;
+  }
+  .how .how-title{
+    font-size: 3.2em;
+  }
+  .how h2 {
+    font-size: 2.2em;
+    min-height: 81px;
+  }
+
+  .how-card  p {
+   text-align: left;
+  }
+}
