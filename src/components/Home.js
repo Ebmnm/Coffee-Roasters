@@ -12,7 +12,7 @@ export default function Home() {
             <div className="side-text">
         <h1>Great Coffee made simple.</h1>
         <p> Start your mornings with the world's best coffee. Try our expertly curated artisan coffee from our best roasters delivered directly to your door, at your schedule</p>
-            <Link class="home-button" to="/plan"> Create your plan</Link>
+            <Link className="home-button" to="/plan"> Create your plan</Link>
             </div>
         </div>
 
@@ -23,12 +23,12 @@ export default function Home() {
             {collection.map((col, ind) => {
                 return ( 
                 <div key={ind} className="collection-wrap">
-                    <div key={ind} className="img-wrap">
-                   <img key={ind} src={col.image}/>
+                    <div  className="img-wrap">
+                   <img  src={col.image}/>
                    </div>
-                   <div className="text" key={ind}>
-                        <h2 key={ind}>{col.heading}</h2>
-                        <p key={ind} >{col.description}</p>
+                   <div className="text" >
+                        <h2 >{col.heading}</h2>
+                        <p  >{col.description}</p>
                    </div>
                 </div>
                      
@@ -42,12 +42,12 @@ export default function Home() {
           <div className="why-card-section">
              {whyChoose.map((why, ind) => {
                return (  <div key={ind} className="why-card">
-                     <div key={ind} className="img-wrap">
-                         <img key={ind} src={why.image}/>
+                     <div className="img-wrap">
+                         <img  src={why.image}/>
                      </div>
-                     <div key={ind} className="text">
-                     <h2 key={ind}>{why.heading}</h2>
-                     <p key={ind}> {why.description}</p>
+                     <div  className="text">
+                     <h2>{why.heading}</h2>
+                     <p> {why.description}</p>
                      </div>
                      </div>  )
              })}  

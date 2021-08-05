@@ -9,8 +9,8 @@ export default function Footer() {
     return (
         <div className="footer">
             <LogoWhite />
-            <Link to="/">HOME</Link>
-            <Link to="/">CREATE YOUR PLAN</Link>
+            <Link to="/Coffee-Roasters">HOME</Link>
+            <Link to="/plan">CREATE YOUR PLAN</Link>
             <div className="socials">
             <div className="social">
            <Facebook/>
