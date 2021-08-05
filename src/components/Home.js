@@ -3,6 +3,8 @@ import "./styles/home.css"
 import HowSection from "./HowSection"
 import {collection, whyChoose} from "../data"
 import Footer from  "./Footer"
+import { Link } from 'react-router-dom';
+
 export default function Home() {
     return (
         <>
@@ -10,7 +12,7 @@ export default function Home() {
             <div className="side-text">
         <h1>Great Coffee made simple.</h1>
         <p> Start your mornings with the world's best coffee. Try our expertly curated artisan coffee from our best roasters delivered directly to your door, at your schedule</p>
-            <button> Create your plan</button>
+            <Link class="home-button" to="/plan"> Create your plan</Link>
             </div>
         </div>
 

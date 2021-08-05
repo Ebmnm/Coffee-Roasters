@@ -8,7 +8,7 @@
     background-image:  url("/src/assets/smcoffee.png");
     background-size: cover;
    
-    /* url("/src/assets/coffee.png"); */
+
 }
 
 p {
@@ -38,10 +38,10 @@ font-size: 3em;
 margin-bottom: 0;
 }
 
-.side-text button {
-
+.side-text .home-button {
+text-decoration:none;
 white-space: nowrap;
-padding:.6em;
+padding:.8em;
 background-color: rgb(14, 134, 132);
 color:white;
 font-weight: 900;
@@ -52,7 +52,7 @@ text-align: center;
 justify-content: center;
 border-radius: .5em;
 }
-.side-text button:hover {
+.side-text .home-button:hover {
     background-color: rgb(2, 202, 252);
     transform: scale(1.1);
     transition: .3s;
@@ -143,7 +143,7 @@ border-radius: .5em;
     
   
     .collection p {
-        font-size: 1.4em;
+        font-size: 1.2em;
         margin: 0;
     }
     .collection .text {
@@ -188,13 +188,14 @@ border-radius: .5em;
         width:85vw;
         margin: 0 auto;
         border-radius:2em;
-        height:60vh;
+        height:55vh;
         padding-bottom: 10%;
         background-image:  url("/src/assets/coffee.png");
         background-size: cover;
        
         /* url("/src/assets/coffee.png"); */
     }    
+
 
     .side-text{
         color:white;
@@ -224,7 +225,7 @@ border-radius: .5em;
     
     }
     
-    .side-text button {
+    .side-text .home-button {
     margin-top: 5%;
    display:block;
    margin-right: 15%;
@@ -248,7 +249,7 @@ border-radius: .5em;
         height:200px;
     }
     .collection p {
-        font-size: 1.4em;
+        font-size: 1.2em;
         margin: 5%;
     }
 
@@ -305,7 +306,7 @@ border-radius: .5em;
         align-items: center;
         text-align: center;
         min-width: 200px;
-        
+        padding-bottom: 3em;
     }
     .why-card p{
         width:100%;
@@ -314,6 +315,7 @@ border-radius: .5em;
     
     .why-section h1 {
         font-size: 3em;
+        margin-top:100px;
     }
     
 }
@@ -321,5 +323,10 @@ border-radius: .5em;
 @media (min-width: 1200px) {
     .side-text{
         width:50%;
+    }
+
+    .collection{
+        margin:10% 5%;
+     
     }
 }

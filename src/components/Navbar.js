@@ -11,8 +11,8 @@ export default function Navbar() {
            <Logo />
            <svg onClick={() => setToggleNav(!toggleNav)} className="hamberger" width="16" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M14.5 12a1.5 1.5 0 010 3h-13a1.5 1.5 0 010-3h13zm0-6a1.5 1.5 0 010 3h-13a1.5 1.5 0 010-3h13zm0-6a1.5 1.5 0 010 3h-13a1.5 1.5 0 010-3h13z" fill="#333D4B" fill-rule="evenodd"/></svg>
            <div className={ toggleNav ? "show-links" : "hide-links" }>
-               <Link className="nav-link" to="/">HOME</Link>
-               <Link className="nav-link" to="/">CREATE YOUR PLAN</Link>
+               <Link className="nav-link" to="/Coffee-Roasters">HOME</Link>
+               <Link className="nav-link" to="/plan">CREATE YOUR PLAN</Link>
            </div>
         </div>
     )

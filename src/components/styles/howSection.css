@@ -1,7 +1,7 @@
 .how{
-  margin-top: 340px;
+  padding-top: 350px;
   text-align: center;
-
+  margin: auto;
 }
 
 
@@ -16,11 +16,15 @@ color: lightcoral;
   margin-bottom: 10%;
 }
 
+.how-cards{
+  margin:auto;
+}
 
-
-.how  button {
-  white-space: nowrap;
-padding:.6em;
+.how  .how-button {
+text-decoration:none;
+width:min-content;
+white-space: nowrap;
+padding:.8em;
 background-color: rgb(14, 134, 132);
 color:white;
 font-weight: 900;
@@ -32,9 +36,10 @@ justify-content: center;
 border-radius: .5em;
 margin:auto;
 }
-.how button:hover{
+.how .how-button:hover{
   transform: scale(1.1);
-  transition:.3s
+  transition:.3s;
+  background-color: rgb(2, 202, 252);
 }
 .how h2 {
   font-size: 2em;
@@ -47,12 +52,12 @@ margin:auto;
 .how .how-title{
   font-size: 2.5em;
 }
-@media (min-width:360px) {
-  .how{
-    margin-top: 200px;
-  }
-}
 
+@media(min-width:600px) {
+.how {
+  padding-top:200px;
+}
+}
 @media(min-width:800px) {
   .how-cards{
     display:flex;
