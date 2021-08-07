@@ -1,12 +1,14 @@
+
 .plan-hero{
-    border: 2px black solid;
-    width:92vw;
-    margin: 0 auto;
-    border-radius:2em;
-    height:auto;
-    padding-bottom: 10%;
-    background-image:  url("/src/assets/plan/mobile/image-hero-blackcup.jpg");
-    background-size: cover;
+  border: 2px black solid;
+  width:92vw;
+  margin: 0 auto;
+  border-radius:2em;
+  height: auto;
+  padding-bottom: 10%;
+  background-image:  url("/src/assets/plan/mobile/image-hero-blackcup.jpg");
+  background-size: cover;
+  font-family: 'Fraunces', serif;
 }
 
 .side-text-plan {
@@ -16,6 +18,7 @@
     width:100%;
     flex-direction: column;
    margin: 10% auto;
+   margin-top: 0;
    align-items: center;
    justify-content: flex-start;
 }
@@ -47,136 +50,94 @@ justify-content: flex-start;
 /src/assets/plan/desktop/image-hero-blackcup.jpg
 */
 
-.plan-how{
-    background: url("/src/assets/plan/desktop/bg-modal-top.png");
-    background-size: contain;
-    color:white;
-    width:92vw;
-    margin:auto;
+
+ 
+
+  .create-plan {
+    text-decoration:none;
+white-space: nowrap;
+padding:.8em;
+background-color: rgb(14, 134, 132);
+color:white;
+font-weight: 900;
+font-size: 1em;
+display:flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+border-radius: .5em;
+margin:auto;
+margin-top: 10%;
+cursor: pointer;
+  }
+.create-plan:hover {
+  background-color: rgb(2, 202, 252);
+  transform: scale(1.1);
+  transition: .3s;
+  cursor: pointer;
 }
 
-.plan-how{
-    margin-top: 100px;
-    padding-top: 50px;
-    text-align: center;
-    padding-bottom: 50px;
-  }
+.order-title{
+  text-align: center;
+}
+
+@media (min-width:700px) {
+.plan-hero{
+  background:url("/src/assets/plan/tablet/image-hero-blackcup.jpg") no-repeat ;
+  background-size: cover;
+  ;
+}
+
+.side-text-plan {
+  width:50%;
+  margin:auto 0;
+}
+
+.side-text-plan p {
+  text-align: left;
   
-   .plan-how h1 {
-    font-size: 4em;
-  margin:0;
-  color: lightcoral;
-  }
-  
-  .plan-how-card  p {
-    margin: 0 10%;
-    margin-bottom: 10%;
-  }
-  
-  .plan-how h2 {
-    font-size: 2em;
-    margin-bottom: 40px;
-  }
-  .plan-how-card  h2{
-    font-size: 1.8em;
-    
-  }
-  .plan-how .plan-how-title{
-    font-size: 2.5em;
+}
+
+.side-text-plan h1 {
+  margin-top: 20%;
+  font-size: 3em;
+}
+
+.order-title{
+  font-size:3em;
+}
+.create-plan{
+  margin-top: 5%;
+  width:20%;
+}
+}
+
+@media (min-width: 1100px) {
+  .side-text-plan {
+    width:50%;
   }
 
-  @media (min-width:360px) {
-    .plan-how{
-      margin-top: 200px;
-    }
-  }
-  
-  @media(min-width:800px) {
-    .plan-how-cards{
-      display:flex;
-      max-width: 92vw;
-    }
-    .plan-how .plan-how-title{
-      font-size: 3.2em;
-    }
-    .plan-how h2 {
-      font-size: 2.2em;
-      min-height: 81px;
-    }
-  
-    .plan-how-card  p {
-     text-align: left;
-    }
+  .side-text-plan h1 {
+    font-size: 5em;
+    letter-spacing: .02em;
+    margin-top: 15%;
+    white-space: nowrap;
   }
 
-
-
-  .option-section{
-      height:auto;
-      width:92vw;
-      margin:auto;
-  }
-  .question {
+  .side-text-plan p {
     text-align: left;
-    font-size: 1.5em;
-    margin: 10% 2%;
-    display:flex;
-    align-items: center;
-    margin-right: 12%;
-    gap:10px;
+    width: 50%;
+  align-self: flex-start;
+  margin-left: 25%;
+  letter-spacing: 0.1em ;
+  }
+  .plan-hero{
+    width:75vw;
+    height:50vh;
+    background:url("/src/assets/plan/desktop/image-hero-blackcup.jpg") no-repeat ;
+    background-size: cover;
+   
   }
 
-  .arrow {
-      background: url("/src/assets/plan/desktop/icon-arrow.svg") no-repeat;
-      width:30px;
-      height:20px;
-      transition: .3s
-  }
 
-  .flip {
-transform:rotateX(180deg);
-  }
-
-  .hide{
-      display:none;
-  }
-
-  ul {
-    list-style: none;
-    margin: auto;
-    padding:0;
-    
-  }
-
-  li {
-    border:1px black solid;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    width:90%;
-    margin: auto;
-    padding:3%;
-    border-radius: 1em;
-    margin-bottom: 5%;
-    background-color:rgb(244, 242, 235);
-    transition: .3s;
-  }
-
-  li:hover {
-    background-color:rgb(253, 182, 182); 
-  }
-
-  .selected{
-    background-color: rgb(14, 134, 132) !important;
-    color:white;
-    border: 3px black solid;
-  }
-
-  li h1 {
-    text-align: center;
-    margin-bottom: 0;
-    pointer-events: none;
-  }
-  li p{
-    pointer-events: none;
-  }
+}

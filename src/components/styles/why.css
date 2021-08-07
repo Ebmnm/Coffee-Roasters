@@ -1,0 +1,107 @@
+.why-section {
+    background-color: rgb(44, 52, 63);
+    color:white;
+    height:1200px;
+    width:92vw;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    border-radius:1em;
+    font-family: 'Fraunces', serif;;
+}
+.why-section p {
+    margin: 0 10%;
+}
+.why-card {
+    display:flex;
+    gap:10px;
+    background-color:rgb(14, 134, 132) ;
+    flex-direction: column;
+    margin: 15% 5%;
+    padding:2em;
+    border-radius:1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.why-section h1 {
+    font-size: 3em;
+}
+
+
+@media (min-width:650px){
+
+
+    .why-section p {
+        margin: 0 10%;
+    }
+    .why-card {
+   
+        flex-direction: row;
+       
+    }
+    
+    .why-section h1 {
+        font-size: 3.3em;
+    }
+    
+}
+
+
+@media (min-width:1000px) {
+.why-section {
+    background-color: rgb(44, 52, 63);
+    color:white;
+    /* height:1200px; */
+    height:auto;
+    width:85vw;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    border-radius:1em;
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+.why-card-section{
+    display:flex;
+    flex-direction: row;
+    padding: 3em;
+}
+.why-section p {
+    margin: 0;
+    font-size: 1.3em;
+}
+
+.whytopp{
+margin:auto;
+width:65%;
+align-self: center;
+}
+.why-card {
+    display:flex;
+    gap:10px;
+    background-color:rgb(14, 134, 132) ;
+    flex-direction: column;
+    margin: 0 2%;
+    padding:1em;
+    border-radius:1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 200px;
+    padding-bottom: 3em;
+}
+.why-card p{
+    width:100%;
+    margin:0;
+}
+
+.why-section h1 {
+    font-size: 3em;
+    margin-top:100px;
+}
+
+}

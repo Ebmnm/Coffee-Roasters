@@ -9,7 +9,7 @@
     flex-direction: column;
     gap:30px;
     width:95vw;
-   
+   align-items: center;
 }
 
 .socials{

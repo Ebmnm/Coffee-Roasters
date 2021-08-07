@@ -1,0 +1,26 @@
+.order-summary {
+    background: url("/src/assets/plan/desktop/bg-modal-top.png") no-repeat;
+    background-size: cover;
+    color:white;
+   padding:5%;
+}
+
+.order-summary p {
+    font-size: 1.6em;
+    font-weight: 800;
+    width:85%;
+    text-align:center;
+    margin: auto;
+}
+
+.order-summary span {
+font-size: 1.5em;
+color:rgb(14, 134, 132)
+}
+
+@media (min-width:1000px) {
+    .order-summary{
+        width:70%;
+        margin:auto
+    }
+}

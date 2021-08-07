@@ -1,0 +1,63 @@
+
+
+.plan-how{
+    background: url("/src/assets/plan/desktop/bg-modal-top.png");
+    background-size: contain;
+    color:white;
+    width:92vw;
+    margin:auto;
+}
+
+.plan-how{
+    margin-top: 100px;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+   .plan-how h1 {
+    font-size: 4em;
+  margin:0;
+  color: lightcoral;
+  }
+  
+  .plan-how-card  p {
+    margin: 0 10%;
+    margin-bottom: 10%;
+  }
+  
+  .plan-how h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+  }
+  .plan-how-card  h2{
+    font-size: 1.8em;
+    
+  }
+  .plan-how .plan-how-title{
+    font-size: 2.5em;
+  }
+
+  @media (min-width:360px) {
+    .plan-how{
+      margin-top: 200px;
+    }
+  }
+  
+  @media(min-width:800px) {
+    .plan-how-cards{
+      display:flex;
+      max-width: 92vw;
+    }
+    .plan-how .plan-how-title{
+      font-size: 3.2em;
+    }
+    .plan-how h2 {
+      font-size: 2.2em;
+      min-height: 81px;
+    }
+  
+    .plan-how-card  p {
+     text-align: left;
+    }
+  }

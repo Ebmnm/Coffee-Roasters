@@ -17,6 +17,11 @@
     display:none;
 }
 
+.hide-links{
+    display: flex;
+    flex-direction: row;
+}
+
 @media  (max-width: 650px) {
     .hide-links {
         display: none;
