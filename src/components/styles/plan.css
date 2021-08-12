@@ -133,7 +133,7 @@ cursor: pointer;
   }
   .plan-hero{
     width:75vw;
-    height:50vh;
+    max-height:50vh;
     background:url("/src/assets/plan/desktop/image-hero-blackcup.jpg") no-repeat ;
     background-size: cover;
    

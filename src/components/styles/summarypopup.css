@@ -8,10 +8,11 @@
     overflow: auto; 
     width:75% !important;
     padding: 1em !important;
+    height:fit-content;
 }
 
 .popup{
-    width:100%;
+    width:auto;
     margin:auto;
     background:white;
     height: fit-content;
