@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import "./styles/options.css"
+import {motion} from "framer-motion"
 export default function Options({selectedOption, setSelectedOption}) {
     
 
@@ -11,6 +12,7 @@ export default function Options({selectedOption, setSelectedOption}) {
         let sibiling = e.target.nextElementSibling
         sibiling.classList.toggle("flip")
         sibiling.parentNode.nextElementSibling.classList.toggle("hide")
+        sibiling.parentNode.nextElementSibling.classList.toggle("animate")
         }
         
         function oneSelect(e) {

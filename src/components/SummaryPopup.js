@@ -8,7 +8,7 @@ import Logo from "../svg/Logo"
 export default function SummaryPopup({selectedOption, setSelectedOption, setShowSummaryPopup, showSummaryPopup}) {
     //use onDismiss for popup closing with state
     return (
-        <Dialog onDismiss={() => setShowSummaryPopup(!showSummaryPopup)} className="outside">
+        <Dialog onDismiss={() => setShowSummaryPopup(!showSummaryPopup)} className={`outside ${showSummaryPopup ? `animate` : null}`}>
         <section className="popup">
         <Logo />
         <h1>Order Summary</h1>
