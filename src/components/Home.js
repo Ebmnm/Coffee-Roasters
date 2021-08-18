@@ -1,7 +1,6 @@
 import React, {useLayoutEffect} from 'react'
 import "./styles/home.css"
 import HowSection from "./HowSection"
-import {collection, whyChoose} from "../data"
 import Footer from  "./Footer"
 import { Link } from 'react-router-dom';
 import Collection from  "./Collection"
@@ -15,7 +14,7 @@ export default function Home() {
         <>
         <motion.div className="container"
           initial={{opacity:0, y:-50}}
-          animate={{  y: 50, opacity: 1 }}
+          animate={{  y: 0, opacity: 1 }}
        transition={{
          delay: 0,
          x: { type: "spring", stiffness: 100 },

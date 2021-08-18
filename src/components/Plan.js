@@ -26,7 +26,7 @@ export default function Plan() {
  <div className="plan">
      <motion.section id="plan" className="plan-hero"
      initial={{opacity:0, y:-50}}
-     animate={{  y: 50, opacity: 1 }}
+     animate={{  y: 0, opacity: 1 }}
   transition={{
     delay: 0,
     x: { type: "spring", stiffness: 100 },
