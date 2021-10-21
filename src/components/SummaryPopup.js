@@ -5,7 +5,7 @@ import {  Dialog } from '@reach/dialog';
 import '@reach/dialog/styles.css';
 import Logo from "../svg/Logo"
 
-export default function SummaryPopup({selectedOption, setSelectedOption, setShowSummaryPopup, showSummaryPopup}) {
+export default function SummaryPopup({selectedOption, setShowSummaryPopup, showSummaryPopup}) {
     //use onDismiss for popup closing with state
     return (
         <Dialog aria-label="close" onDismiss={() => setShowSummaryPopup(!showSummaryPopup)} className={`outside ${showSummaryPopup ? `animate` : null}`}>

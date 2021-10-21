@@ -1,11 +1,7 @@
 import React, {useState} from 'react'
 import "./styles/options.css"
-import {motion} from "framer-motion"
 export default function Options({selectedOption, setSelectedOption}) {
-    
-
     const [show, setShow] = useState(false)
-
 
     function toggleText(e) {
         setShow(!show);

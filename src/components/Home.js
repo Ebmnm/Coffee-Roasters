@@ -15,7 +15,7 @@ export default function Home() {
         <motion.div className="container"
           initial={{opacity:0, y:-50}}
           animate={{  y: 0, opacity: 1 }}
-       transition={{
+         transition={{
          delay: 0,
          x: { type: "spring", stiffness: 100 },
          default: { duration: .6 },}} >

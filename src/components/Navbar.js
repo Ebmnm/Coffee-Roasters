@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import Logo from "../svg/Logo"
 import { Link } from 'react-router-dom';
 import "./styles/navbar.css"
-import {  Dialog } from '@reach/dialog';
 export default function Navbar() {
     const [toggleNav, setToggleNav] = useState(false)
 

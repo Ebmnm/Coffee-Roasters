@@ -1,6 +1,6 @@
 .collection{
     text-align: center;
-    margin: 20% 0;
+    margin: 5% 0;
 }
 
 .collection h2 {
@@ -30,13 +30,20 @@
     margin: 0 20%;
     font-family: 'Fraunces', serif;;
 }
+.collection-wrap{
+    box-shadow: 11px 12px 8px -9px rgba(0,0,0,0.35)
+}
+.collection-wrap:hover {
+  box-shadow: 11px 15px 9px -10px rgba(0,0,0,0.54);
+  transform: scale(1.05);
+}
 
 
 
 @media (min-width:650px){
     .collection{
         text-align: center;
-        margin: 20% 0;
+        margin: 5% 0;
     }
    
     .collection-wrap {
@@ -95,7 +102,7 @@
     }
 
     .collection{
-        margin:10% 5%;
+        margin:5% 5%;
      
     }
 }

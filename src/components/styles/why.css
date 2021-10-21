@@ -25,6 +25,10 @@
     text-align: center;
 }
 
+.why-card:hover {
+    transform: translateY(20px)
+}
+
 .why-section h1 {
     font-size: 3em;
 }
