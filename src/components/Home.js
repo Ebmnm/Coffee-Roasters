@@ -6,10 +6,12 @@ import { Link } from 'react-router-dom';
 import Collection from  "./Collection"
 import Why from "./Why"
 import {motion} from "framer-motion"
+
 export default function Home() {
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     },[]);
+    
     return (
         <>
         <motion.div className="container"
@@ -26,10 +28,9 @@ export default function Home() {
             </div>
         </motion.div>
 
-
     <Collection />
      <Why />
-    <HowSection />
+<HowSection />
     <Footer/>
         
 
